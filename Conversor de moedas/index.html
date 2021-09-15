@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+  <title>Cotação de moedas</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Faça a conversao da sua moeda
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+    <div class="caixa">
+      <label for="moeda">Insira o valor e escolha a moeda</label><br>
+      <button id="dolar-button" onclick="calcInDolar()">Dolar</button>
+      <button id="euro-button" onclick="calcInEuro()">Euro</button>
+      <button id="btc-button" onclick="calcInBtc()">Bitcoin</button>
+      <input type="number" id="valor" size="3" placeholder="U$/€/B:" /><br>
+      <div id="entrace-value"></div>
+    </div>
+    <h2 id="valorConvertido"></h2>
+  </div>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <img src="https://image.freepik.com/vetores-gratis/ilustracao-do-conceito-de-calculadora_114360-1239.jpg" class="vetor">
+
+    <footer>
+      <p><a href="">Fernando Vicente de Souza, 2021.</a></p>
+
+    </footer>
+    <script type="text/javascript" src="js/action.js"></script>
+</body>
+
+</html>

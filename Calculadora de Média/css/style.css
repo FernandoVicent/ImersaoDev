@@ -1,0 +1,77 @@
+body {
+  font-size:30px;
+  font-family: 'Roboto Mono',monospace;
+  min-height: 100px;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+  font-weight:bold;
+  background-color: #32a852;
+  background-size: 40vh;
+  background-position:left bottom;
+  border-radius:50px;
+  background-color: #32a852;
+  background-image:url('https://images.vexels.com/media/users/3/205464/isolated/lists/33d6bbfd7171189bd02d36b4e2befb6b-pile-of-books-tea-illustration.png');
+  background-repeat:no-repeat;  }
+
+.container {
+  text-align: center;
+  padding:1em, 10px, 20px, 0px;
+  height: 150vh;
+}
+
+.page-title {
+  color:#ffffff;
+  margin: 0 0 2px;
+}
+
+.page-subtitle {
+  color:#ffffff;
+  margin-top: 40px;
+}
+
+.page-logo {
+  width: 40vh;
+  
+}
+
+.alura-logo {
+  width: 70px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+#msg{
+  color: white;
+  font-size:30px;
+  font-style:italic;
+}
+a{
+  color:white;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding:20px;
+}
+input{
+  font-size:20px;
+  width:200px;
+  padding:12px;
+  border-radius:12px;
+  background-color:#ffffff;
+  margin-bottom:15px;
+  border:0;
+  color:#000000;
+}
+.result{
+  color:#fff;
+}
+button{
+  padding:10px 20px;
+  border-radius:12px;
+  border:1;
+  background-color:#DAF1FF;
+  color:#000000;
+  font-size:30px;
+  cursor:pointer;
+}
