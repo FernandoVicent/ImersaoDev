@@ -88,22 +88,49 @@ var carta10 = {
     magia: 3
   }
 };
+var carta11 = {
+  nome: "Mai",
+  imagem:"https://static.wikia.nocookie.net/avatar/images/4/40/Mai.png/revision/latest?cb=20200913172821&path-prefix=pt-br",
+  atributos: {
+    ataque: 7,
+    defesa: 5,
+    magia: 6
+  }
+};
+var carta12 = {
+  nome: "Mai",
+  imagem:"https://static.wikia.nocookie.net/avatar/images/6/6d/Ty_Lee.png/revision/latest?cb=20140905083814",
+  atributos: {
+    ataque: 5,
+    defesa: 7,
+    magia: 3
+  }
+};
+var carta13 = {
+  nome: "Yue",
+  imagem:"https://i.pinimg.com/474x/db/7b/fc/db7bfccaf4020e879c7999e69510d3a1.jpg",
+  atributos: {
+    ataque: 4,
+    defesa: 5,
+    magia: 10
+  }
+};
 //cartas
-var cartas = [carta1, carta2, carta3,carta4,carta5,carta6,carta7,carta8,carta9,carta10];
+var cartas = [carta1, carta2, carta3,carta4,carta5,carta6,carta7,carta8,carta9,carta10,carta11,carta12,carta13];
 var cartaMaquina;
 var cartaJogador;
 
 //--------------------------------//-------------------------//
 //Sorteando Cartas
 function sortearCarta() {
-  var numeroCartaMaquina = parseInt(Math.random() * 10);
+  var numeroCartaMaquina = parseInt(Math.random() * 13);
 
   cartaMaquina = cartas[numeroCartaMaquina];
 
   //Carta Players;
-  var numeroCartaJogador = parseInt(Math.random() * 10);
+  var numeroCartaJogador = parseInt(Math.random() * 13);
   while (numeroCartaMaquina == numeroCartaJogador) {
-    numeroCartaJogador = parseInt(Math.random() *10);
+    numeroCartaJogador = parseInt(Math.random() *13);
   }
   console.log(numeroCartaJogador)
   cartaJogador = cartas[numeroCartaJogador];
